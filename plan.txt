@@ -5,3 +5,5 @@ We are going to copy over code from the library for both our Binary and Linear S
 we decided to measure time in the Driver file.
 
 we will change the sizes of the array by a mulititude of 10 each time
+
+check our log for more on our discussion
