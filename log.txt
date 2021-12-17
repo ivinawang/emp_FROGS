@@ -1,0 +1,19 @@
+LOG FOR TEAM FROGS:
+This file contains a record of all additions and suggestions by members of team FROGS
+
+2021-12-16 8:42 pm EST
+Samantha, Ivina, and Ruby start creating a plan to implement tests for how long BinSearch  and LinSearch respectfully take.
+Samantha suggests measuring the time at the begining of the method and at the ending of the method (INSIDE the method)
+This will measure how long the loops take.
+Ruby suggests putting a start and end time in the main method before the test call to BinSearch and Linsearch and after. 
+This will measure how long the methods take.
+Ivina agrees with Samantha that it would be more reasonable to put the time stamps inside the method itself.
+
+2021-12-16 8:51 pm EST
+To determine how long the methods take, Samantha, Ruby and Ivina decide to measure the currentTimeMillis before the
+method, then after the method, and measure the difference to get the time in miliseconds that BinSearch and LinSearch
+take to use.
+
+2021-12-16 8:54 pm EST
+Ivina brings up that we will need to import java.util.Date to measure the time, Ruby and Samantha are captivated by Ivina's intelligence.
+
