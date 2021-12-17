@@ -8,4 +8,4 @@ we will change the sizes of the array by a mulititude of 10 each time
 
 we will use a for/while loop in our driver file to repeat our experiment multiple times. we will then average out the time elapsed per trial to get more accurate results. (specifically, we will do it 20 times per array)
 
-for our arrays, we are thinking of having lengths of 1,10,100,1000,10000.
+for our arrays, we are thinking of having lengths of 1,10,100,1000,10000,100000,1000000,10000000,100000000.
