@@ -1,0 +1,7 @@
+we are going to have instance variables _beginTime and _endTime. both will be in ms
+
+We are going to copy over code from the library for both our Binary and Linear Search methods
+
+we decided to measure time in the Driver file.
+
+we will change the sizes of the array by a mulititude of 10 each time
