@@ -1,9 +1,9 @@
 we are going to have instance variables _beginTime and _endTime. both will be in ms
 
-We are going to copy over code from the library for both our Binary and Linear Search methods
+we are going to copy over code from the library for both our Binary and Linear Search methods
 
 we decided to measure time in the Driver file.
 
 we will change the sizes of the array by a mulititude of 10 each time
 
-check our log for more on our discussion
+we will use a for/while loop in our driver file to repeat our experiment multiple times. we will then average out the time elapsed per trial to get more accurate results.
