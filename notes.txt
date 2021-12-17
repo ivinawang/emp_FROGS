@@ -4,6 +4,10 @@ L03 -- Get Empirical
 2021-12-16
 time spent: 0.75 hrs
 
+DISCO:
+
+QCC:
+
 NOTES:
  * In order to measure the time LinSearch and BinSearch take to run, we 
    will measure before they run, and after they run and find the difference
