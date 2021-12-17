@@ -5,7 +5,7 @@ L03 -- Get Empirical
 time spent: 0.75 hrs
 
 DISCO:
-
+ * We don't need to import java.util.System because it is already embedded into Java files.
 QCC:
 
 NOTES:
@@ -14,3 +14,4 @@ NOTES:
    to determine how long they took to run.
  * We should find the time stamps in the driver file main method to avoid 
    editing the methods of 2 already working java files (BinSearch and LinSearch)
+ 
