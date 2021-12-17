@@ -17,3 +17,7 @@ take to use.
 2021-12-16 8:54 pm EST
 Ivina brings up that we will need to import java.util.Date to measure the time, Ruby and Samantha are captivated by Ivina's intelligence.
 
+2021-12-16 9:03 pm EST
+Ivina and Samantha change their minds. After Ruby's persuasive convincing, Samantha and Ivina now believe that the time stamps
+should be measured in the main method. This is to avoid editing an already working java file and put it in the driver (which
+hasn't been written yet instead) 
