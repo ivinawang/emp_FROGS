@@ -11,3 +11,7 @@ we will use a for/while loop in our driver file to repeat our experiment multipl
 for our arrays, we are thinking of having lengths of 1,10,100,1000,10000,100000,1000000,10000000,100000000.
 
 we will change whether or not the item is in the array to create varying test cases.
+
+---
+
+an array with the length 1,000,000 took only a max of 4ms (for LinSearch, 0ms for BinSearch) -> so we're trying out an arrays 100,000,000+ elements
