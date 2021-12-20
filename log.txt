@@ -1,3 +1,9 @@
+Team Frogs (Ruby Friedman, Ivina Wang, Samantha Hua)
+APCS pd07
+L03 -- Get Empirical 
+2021-12-16
+time spent: 3.0 hrs
+
 LOG FOR TEAM FROGS:
 This file contains a record of all additions and suggestions by members of team FROGS
 
