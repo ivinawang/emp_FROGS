@@ -21,3 +21,14 @@ Ivina brings up that we will need to import java.util.Date to measure the time, 
 Ivina and Samantha change their minds. After Ruby's persuasive convincing, Samantha and Ivina now believe that the time stamps
 should be measured in the main method. This is to avoid editing an already working java file and put it in the driver (which
 hasn't been written yet instead) 
+
+2021-12-17 12:38 - 1:19 pm EST
+Ivina, Ruby, and Samantha created issues on other teams plans and then proceeded to update their own plans to prepare for programming.
+
+2021-12-19 8:20 pm EST
+Samantha discovered the proper syntaxing for finding the currentTimeMillis() to measure how long binSearch and linSearch take in milliseconds,
+Ruby implemented the first test case on an 1000 length array, the team was shocked when both methods seemed to only take 0 milliseconds.
+Ivina suggested going to much longer lengths such as a million and even 1 billion. Ruby declined to go above 100 million for fear that their
+computer would crash. 
+The team collectively decided to use for loops to construct their arrays, create a random target each time, and repeat testing on the same array many times.
+
