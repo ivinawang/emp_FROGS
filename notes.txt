@@ -2,11 +2,19 @@ Team Frogs (Ruby Friedman, Ivina Wang, Samantha Hua)
 APCS pd07
 L03 -- Get Empirical 
 2021-12-16
-time spent: 0.75 hrs
+time spent: 3.0 hrs
 
 DISCO:
  * We don't need to import java.util.System because it is already embedded into Java files.
+ * binSearch is EXTREMELY fast compared to linSearch. At 100,000,000 length arrays binSearch
+   still takes 0 miliseconds, whereas linSearch often takes above 100 miliseconds.
+ * When writing out big numbers, putting in an underscore in between numbers acts as a comma
+   and java ignores the underscores.
+
 QCC:
+ * How big can we make the Comparable arrays until we put our computer at risk for crashing?
+ * Is there a faster method of searching then BinSearch?
+ * Is there a way for us to see nanoseconds, or a smaller increment of time then miliseconds?
 
 NOTES:
  * In order to measure the time LinSearch and BinSearch take to run, we 
