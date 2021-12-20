@@ -1,26 +1,50 @@
 public class SearchDriver {
+	private double avgBin = 0.0;
+	private double avgLin = 0.0;
+	private long BegTimeLin = 0;
+	private long BegTimeBin = 0;
+	private long EndTimeLin = 0;
+	private long EndTimeBin = 0;
+	private long TimeLin = 0;
+	private long TimeBin =0;
+
+	public static void averageTime(Comparable[] a) {
+		for (int i = 0; i < 50; i++) {
+			int target = (int) (Math.random() * a.length);
+			BegTimeLin = System.currentTimeMillis();
+               		LinSearch.linSearch(a, target);
+                	EndTimeLin = System.currentTimeMillis();
+                	TimeLin = EndTimeLin - BegTimeLin;
+									avgLin += TimeLin;
+
+	                BegTimeBin = System.currentTimeMillis();
+	                BinSearch.binSearch(a, target);
+	                EndTimeBin = System.currentTimeMillis();
+        	        TimeBin = EndTimeBin - BegTimeBin;
+									avgBin += TimeBin;
+		}
+		avgLin /= 50;
+		avgBin /= 50;
+		System.out.println(""+a.length+" length arrays: ");
+		System.out.println("LinSearch took an average of " + avgLin + " miliseconds.");
+		System.out.println("However, binSearch took an avg of " + avgBin + " miliseconds.");
+
+	}
+
+	public static Comparable[] populate(Comparable[]) {
+		
+	}
 
 	public static void main(String[] args) {
-		Comparable[] a = { 2, 4, 6, 8, 6, 42 };
-		long BegTimeLin = 0;
-		long BegTimeBin = 0;
-		long EndTimeLin = 0;
-		long EndTimeBin = 0;
-		long TimeLin = 0;
-		long TimeBin =0;
-		BegTimeLin = System.currentTimeMillis();
-		LinSearch.linSearch(a, 42);
-		EndTimeLin = System.currentTimeMillis();
-		TimeLin = EndTimeLin - BegTimeLin;
+		for (i=10; i<1000000000; i *= 100) {
+			Comparable[] a = new Integer[i];
+			//populate the array
+			//get avg
 
-		BegTimeBin = System.currentTimeMillis();
-                BinSearch.binSearch(a, 42);
-                EndTimeBin = System.currentTimeMillis();
-                TimeBin = EndTimeBin - BegTimeBin;
+		}
 
-		System.out.println("LinSearch took " + TimeLin + " miliseconds. However, binSearch to run which took " + TimeBin + " miliseconds.");
 
-		//1,000 length arrays
+		//10,000 length arrays
 		Comparable[] hewwo = new Integer[10000];
 		for( int i = 0; i < hewwo.length; i++ ) {
 			hewwo[i] = i;
@@ -31,13 +55,20 @@ public class SearchDriver {
                		LinSearch.linSearch(hewwo, target);
                 	EndTimeLin = System.currentTimeMillis();
                 	TimeLin = EndTimeLin - BegTimeLin;
+									avgLin += TimeLin;
 
 	                BegTimeBin = System.currentTimeMillis();
-	                BinSearch.binSearch(hewwo, target); 
+	                BinSearch.binSearch(hewwo, target);
 	                EndTimeBin = System.currentTimeMillis();
         	        TimeBin = EndTimeBin - BegTimeBin;
-			System.out.println("LinSearch took " + TimeLin + " miliseconds. However, binSearch to run which took " + TimeBin + " miliseconds.");
+									avgBin += TimeBin;
 		}
+		avgLin /= 15;
+		avgBin /= 15;
+		System.out.println("\n");
+		System.out.println("10,000 length arrays: ");
+		System.out.println("LinSearch took an average of " + avgLin + " miliseconds. However, binSearch took an avg of" + avgBin + " miliseconds.");
+
 		System.out.println("\n");
 		//1,000,000 length arrays
                 Comparable[] computerKiller = new Integer[1000000];
@@ -52,7 +83,7 @@ public class SearchDriver {
                         TimeLin = EndTimeLin - BegTimeLin;
 
                         BegTimeBin = System.currentTimeMillis();
-                        BinSearch.binSearch(computerKiller, target); 
+                        BinSearch.binSearch(computerKiller, target);
                         EndTimeBin = System.currentTimeMillis();
                         TimeBin = EndTimeBin - BegTimeBin;
                         System.out.println("LinSearch took " + TimeLin + " miliseconds. However, binSearch to run which took " + TimeBin + " miliseconds.");
@@ -71,7 +102,7 @@ public class SearchDriver {
                         TimeLin = EndTimeLin - BegTimeLin;
 
                         BegTimeBin = System.currentTimeMillis();
-                        BinSearch.binSearch(computerMurderer, target); 
+                        BinSearch.binSearch(computerMurderer, target);
                         EndTimeBin = System.currentTimeMillis();
                         TimeBin = EndTimeBin - BegTimeBin;
                         System.out.println("LinSearch took " + TimeLin + " miliseconds. However, binSearch to run which took " + TimeBin + " miliseconds.");
