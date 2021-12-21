@@ -1,6 +1,6 @@
 Team Frogs (Ruby Friedman, Ivina Wang, Samantha Hua)
 APCS pd07
-L03 -- Get Empirical 
+L03 -- Get Empirical
 2021-12-16
 time spent: 3.0 hrs
 
@@ -11,7 +11,7 @@ This file contains a record of all additions and suggestions by members of team 
 Samantha, Ivina, and Ruby start creating a plan to implement tests for how long BinSearch  and LinSearch respectfully take.
 Samantha suggests measuring the time at the begining of the method and at the ending of the method (INSIDE the method)
 This will measure how long the loops take.
-Ruby suggests putting a start and end time in the main method before the test call to BinSearch and Linsearch and after. 
+Ruby suggests putting a start and end time in the main method before the test call to BinSearch and Linsearch and after.
 This will measure how long the methods take.
 Ivina agrees with Samantha that it would be more reasonable to put the time stamps inside the method itself.
 
@@ -26,7 +26,7 @@ Ivina brings up that we will need to import java.util.Date to measure the time, 
 2021-12-16 9:03 pm EST
 Ivina and Samantha change their minds. After Ruby's persuasive convincing, Samantha and Ivina now believe that the time stamps
 should be measured in the main method. This is to avoid editing an already working java file and put it in the driver (which
-hasn't been written yet instead) 
+hasn't been written yet instead)
 
 2021-12-17 12:38 - 1:19 pm EST
 Ivina, Ruby, and Samantha created issues on other teams plans and then proceeded to update their own plans to prepare for programming.
@@ -35,7 +35,7 @@ Ivina, Ruby, and Samantha created issues on other teams plans and then proceeded
 Samantha discovered the proper syntaxing for finding the currentTimeMillis() to measure how long binSearch and linSearch take in milliseconds,
 Ruby implemented the first test case on an 1000 length array, the team was shocked when both methods seemed to only take 0 milliseconds.
 Ivina suggested going to much longer lengths such as a million and even 1 billion. Ruby declined to go above 100 million for fear that their
-computer would crash. 
+computer would crash.
 The team collectively decided to use for loops to construct their arrays, create a random target each time, and repeat testing on the same array many times.
 
 2021-12-20 12:38 - 1:19 pm EST
@@ -46,14 +46,14 @@ code in the main method. By the end of class there was a new method in the drive
 on different sized arrays with 50 trials for each size.
 
 2021-12-20 8:36 pm EST
-Ivina found the piazza post that said we should be using target at the worst case senerio for binSearch and linSearch. Prior to this team FROGS had used 
+Ivina found the piazza post that said we should be using target at the worst case scenario for binSearch and linSearch. Prior to this team FROGS had used 
 a randomized target.
 
 2021-12-20 8:42 pm EST
-The three FROG members created a method in the driver file called populate, which populated an array with increments of 1. 
-After editing the methods to account for the worst case senerio, which Samantha decided was when the value wasn't in the array, (though Ruby wasn't sure
-if the last digit for linSearch could also be a worst case senerio, and the group debated this for quite a bit before coming to the conclusion that
-Samanthas way was perfectly acceptable) the team declared their driver file to be completed!
+The three FROG members created a method in the driver file called populate, which populated an array with increments of 1.
+After editing the methods to account for the worst case scenario, which Samantha decided was when the value wasn't in the array, (though Ruby wasn't sure
+if the last digit for linSearch could also be a worst case scenario, and the group debated this for quite a bit before coming to the conclusion that
+Samantha's way was perfectly acceptable) the team declared their driver file to be completed!
 
 2021-12-20 9:28 pm EST
 Still grinning from finishing their driver file, team FROGS members began to update their notes, log, and README files to reflect their new discoveries!
