@@ -27,8 +27,8 @@ public class SearchDriver {
 		avgBin /= 50;
 		System.out.println("\n");
 		System.out.println(""+a.length+" length arrays: ");
-		System.out.println("linSearch took an average of " + avgLin + " miliseconds.");
-		System.out.println("However, binSearch took an avg of " + avgBin + " miliseconds.");
+		System.out.println("linSearch took an average of " + avgLin + " milliseconds.");
+		System.out.println("However, binSearch took an avg of " + avgBin + " milliseconds.");
 
 	}
 
