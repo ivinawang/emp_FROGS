@@ -1,27 +1,27 @@
 public class SearchDriver {
 	private static double avgBin = 0.0;
 	private static double avgLin = 0.0;
-	private static long BegTimeLin = 0;
-	private static long BegTimeBin = 0;
-	private static long EndTimeLin = 0;
-	private static long EndTimeBin = 0;
-	private static long TimeLin = 0;
-	private static long TimeBin =0;
+	private static long begTimeLin = 0;
+	private static long begTimeBin = 0;
+	private static long endTimeLin = 0;
+	private static long endTimeBin = 0;
+	private static long timeLin = 0;
+	private static long timeBin =0;
 
 	public static void averageTime(Comparable[] a) {
 		for (int i = 0; i < 50; i++) {
 			int target = (int) (Math.random() * a.length);
-			BegTimeLin = System.currentTimeMillis();
+			begTimeLin = System.currentTimeMillis();
                		LinSearch.linSearch(a, target);
-                	EndTimeLin = System.currentTimeMillis();
-                	TimeLin = EndTimeLin - BegTimeLin;
-			avgLin += TimeLin;
+                	endTimeLin = System.currentTimeMillis();
+                	timeLin = endTimeLin - begTimeLin;
+			avgLin += timeLin;
 
-	                BegTimeBin = System.currentTimeMillis();
+	                begTimeBin = System.currentTimeMillis();
 	                BinSearch.binSearch(a, target);
-	                EndTimeBin = System.currentTimeMillis();
-        	        TimeBin = EndTimeBin - BegTimeBin;
-			avgBin += TimeBin;
+	                endTimeBin = System.currentTimeMillis();
+        	        timeBin = endTimeBin - begTimeBin;
+			avgBin += timeBin;
 		}
 		avgLin /= 50;
 		avgBin /= 50;
