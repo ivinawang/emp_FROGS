@@ -44,4 +44,4 @@ However, binSearch took an avg of 1.0E-6 milliseconds.
 ```
 
 ## Conclusions
-As you can see from the results above, originally linSearch and binSearch take around the same amount of time. However, as the length of the array increases, it becomes more obvious that binSearch is a more efficient method than linSearch.
+As you can see from the results above, originally linSearch and binSearch take around the same amount of time. However, as the length of the array increases, it becomes increasingly more obvious that binSearch is a more efficient method than linSearch. Thus we can safely say that the hypothesis "relative to the size of the dataset, binary search is faster than linsearch" is true because as the size of the array increases as does the gap in the methods efficiency. Though each time you run the program, there is definitely some variability, (which would be reduced with more trials), the trend remains true that binary search is faster then linear search.
