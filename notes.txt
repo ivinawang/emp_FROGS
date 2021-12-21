@@ -13,6 +13,7 @@ DISCO:
  * At a certain point, as you increase the length of the array, BinSearch takes less and less time.
  * Any instance variables referenced in a static context must also be static
  * When trying to test arrays that are a billion Integers long, we ran into a out of memory error: Java heap space.
+ * To increase the heap size you can use java -Xmx<amount of memory> ClassName (for ex. java -Xmx3072m SearchDriver sets the maximum heap size allocated to SerachDriver to 3072 Mb)
 
 QCC:
  * How big can we make the Comparable arrays until we put our computer at risk for crashing?
