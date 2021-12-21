@@ -10,7 +10,7 @@ public class SearchDriver {
 
 	public static void averageTime(Comparable[] a) {
 		for (int i = 0; i < 50; i++) {
-			int target = (int) (Math.random() * a.length);
+			int target = a.length;
 			begTimeLin = System.currentTimeMillis();
                		LinSearch.linSearch(a, target);
                 	endTimeLin = System.currentTimeMillis();
@@ -45,6 +45,5 @@ public class SearchDriver {
 			a = populate(a); //populate the array
 			averageTime(a); //get avg
 		}
-
 	}
 }
