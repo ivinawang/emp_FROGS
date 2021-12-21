@@ -38,3 +38,5 @@ Ivina suggested going to much longer lengths such as a million and even 1 billio
 computer would crash. 
 The team collectively decided to use for loops to construct their arrays, create a random target each time, and repeat testing on the same array many times.
 
+2021-12-20 12:38 - 1:19 pm EST
+Samantha suggested using a nested for loop to simplify code and prevent re-writing code that had essentially already 
