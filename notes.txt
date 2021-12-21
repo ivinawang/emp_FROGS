@@ -1,25 +1,33 @@
 Team Frogs (Ruby Friedman, Ivina Wang, Samantha Hua)
 APCS pd07
-L03 -- Get Empirical 
-2021-12-16
-time spent: 3.0 hrs
+L03 -- Get Empirical
+2021-12-20
+time spent: 5.0 hrs
 
 DISCO:
  * We don't need to import java.util.System because it is already embedded into Java files.
- * binSearch is EXTREMELY fast compared to linSearch. At 100,000,000 length arrays binSearch
-   still takes 0 miliseconds, whereas linSearch often takes above 100 miliseconds.
+ * BinSearch is EXTREMELY fast compared to LinSearch. At 100,000,000 length arrays BinSearch
+   still takes 0 milliseconds, whereas LinSearch often takes above 100 milliseconds.
  * When writing out big numbers, putting in an underscore in between numbers acts as a comma
    and java ignores the underscores.
+ * At a certain point, as you increase the length of the array, BinSearch takes less and less time.
+ * Any instance variables referenced in a static context must also be static
+ * When trying to test arrays that are a billion Integers long, we ran into a out of memory error: Java heap space.
 
 QCC:
  * How big can we make the Comparable arrays until we put our computer at risk for crashing?
  * Is there a faster method of searching then BinSearch?
- * Is there a way for us to see nanoseconds, or a smaller increment of time then miliseconds?
+ * Is there a way for us to see nanoseconds, or a smaller increment of time then milliseconds? Ans: yes but we're not allowed to use it
+ * If you run out of memory on your computer, is there a way to still run this code? Or is it not possible?
+ * Why does the program sometimes return 0.0 milliseconds for the duration of BinSearch while other times it returns a very specific and small number like
+ 0.020000000001279997 milliseconds?
 
 NOTES:
- * In order to measure the time LinSearch and BinSearch take to run, we 
+ * In order to measure the time LinSearch and BinSearch take to run, we
    will measure before they run, and after they run and find the difference
    to determine how long they took to run.
- * We should find the time stamps in the driver file main method to avoid 
+ * We should find the time stamps in the driver file main method to avoid
    editing the methods of 2 already working java files (BinSearch and LinSearch)
- 
+ * Helper functions/breaking up a task into smaller parts creates more readable code
+ * We only need to test the worst case scenario because we want the maximum amount of time both methods could possibly take to run.
+    * The worst case scenario of both Lin and BinSearch is when the target is not in the array
