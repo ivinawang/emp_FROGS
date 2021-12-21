@@ -39,4 +39,21 @@ computer would crash.
 The team collectively decided to use for loops to construct their arrays, create a random target each time, and repeat testing on the same array many times.
 
 2021-12-20 12:38 - 1:19 pm EST
-Samantha suggested using a nested for loop to simplify code and prevent re-writing code that had essentially already 
+Samantha suggested using a nested for loop to simplify code and prevent re-writing code that had essentially already been written.
+Ruby disagreed, saying that nested for loops could become confusing easily, and suggested writing helper methods instead.
+Ivina pitched in and agreed with Ruby, the trio spent the rest of the class period implementing methods to simplify code and prevent re-writing repetitive
+code in the main method. By the end of class there was a new method in the driver file for finding the average time linSearch and binSearch took to run
+on different sized arrays with 50 trials for each size.
+
+2021-12-20 8:36 pm EST
+Ivina found the piazza post that said we should be using target at the worst case senerio for binSearch and linSearch. Prior to this team FROGS had used 
+a randomized target.
+
+2021-12-20 8:42 pm EST
+The three FROG members created a method in the driver file called populate, which populated an array with increments of 1. 
+After editing the methods to account for the worst case senerio, which Samantha decided was when the value wasn't in the array, (though Ruby wasn't sure
+if the last digit for linSearch could also be a worst case senerio, and the group debated this for quite a bit before coming to the conclusion that
+Samanthas way was perfectly acceptable) the team declared their driver file to be completed!
+
+2021-12-20 9:28 pm EST
+Still grinning from finishing their driver file, team FROGS members began to update their notes, log, and README files to reflect their new discoveries!
