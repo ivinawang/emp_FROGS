@@ -1,7 +1,7 @@
-// Clyde "Thluffy" Sinclair
-// APCS1 pd0
-// HW48 -- implementing linear and binary search on an ArrayList of Comparables
-// 2021-12-16r
+// Team FROGS (Ruby Friedman, Ivina Wang, Samantha Hua)
+// APCS pd07
+// L03
+// 2021-12-21
 
 /**
    class BinSearch
@@ -41,7 +41,7 @@ public class BinSearch
       tPos = m;
     // value at mid index higher than target
     else if ( a[m].compareTo(target) > 0 ) 
-      tPos = binSearchRec( a, target, 0, m-1 );
+      tPos = binSearchRec( a, target, lo, m-1 );
     // value at mid index lower than target
     else if ( a[m].compareTo(target) < 0 ) 
       tPos = binSearchRec( a, target, m+1, hi );
@@ -147,6 +147,8 @@ public class BinSearch
 
     //search for 43 in array 
     System.out.println( binSearch(iArr3,43) );
+    System.out.println("compile" );
+
 
 
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
