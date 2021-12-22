@@ -21,3 +21,11 @@ easily understood.
 
 we will make this experiment repeatable by utilizing for loops to repeat the same code multiple times and averaging the result. this increases the
 legitamacy of our results
+
+---
+
+the gallery walk revealed to us that we should have more trials per array length so we doubled our number of trials.
+
+we also added the sum of the durations of the trials per array length to get results that could be easily understood.
+
+we discussed whether the worst case scenario was an item not in the array or the last item in the array. we were a little confused but decided to change the target to be the last element of the array.
