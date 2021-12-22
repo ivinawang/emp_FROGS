@@ -1,8 +1,8 @@
 Team Frogs (Ruby Friedman, Ivina Wang, Samantha Hua)
 APCS pd07
 L03 -- Get Empirical
-2021-12-16
-time spent: 3.0 hrs
+2021-12-21
+time spent: 6.0 hrs
 
 LOG FOR TEAM FROGS:
 This file contains a record of all additions and suggestions by members of team FROGS
@@ -57,3 +57,26 @@ Samantha's way was perfectly acceptable) the team declared their driver file to 
 
 2021-12-20 9:28 pm EST
 Still grinning from finishing their driver file, team FROGS members began to update their notes, log, and README files to reflect their new discoveries!
+
+2021-12-21 12:38 - 1:19 pm EST
+The trio was shocked to find out that this lab would continue yet another day! Samantha and Ivina seperated off from Ruby to view others code, meanwhile,
+Ruby presented to various other teams.
+Through this comparing of algorithims and code, the team reconvened with new knowledge ready to implement changes to their existing driver file.
+
+2021-12-21 8:14 pm EST
+Ruby changed the worst case scenerio for binSearch and linSearch to the last element in the array.
+Ivina suggested implementing more trials for each array, and the FROGS updated the driver file to now have 200 trials for each array length.
+Samantha suggested that instead of taking an average of the values, and getting strange decimals we should print out the sum of the 200 trials and
+say this was the total. Thus our driver file now prints out this sum of milliseconds for 200 trials rather then giving a confusing and long decimal with
+e and 20 decimal places.
+
+2021-12-21 8:39 pm EST
+Samantha and Ivina discussed what they learned from viewing other teams work, updated Ruby on the "tea" and began to implement what they thought the other
+teams had done well, (in addition they added a new section to notes detailing what they had learned from this expierence).
+Ruby updated the README file to accomadate the new data.
+Samantha brought up the piazza post by team walrus that explained a previous bug/typo in the origional library BinSearch.java, the FROGS then re-updated
+their BinSearch.java file.
+
+2021-12-21 9:18 pm EST
+Alas! After updating all neccesary files, team FROGS declared that they had completed the lab, or had they...
+
