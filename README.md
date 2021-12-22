@@ -12,35 +12,42 @@ TNPG + roster: FROGS (Ruby Friedman, Ivina Wang, Samantha Hua)
 ```
 10 length arrays: 
 linSearch took an average of 0.0 milliseconds.
-However, binSearch took an avg of 0.0 milliseconds.
+However, binSearch took an avg of 0.005 milliseconds.
+
 
 100 length arrays: 
 linSearch took an average of 0.0 milliseconds.
-However, binSearch took an avg of 0.0 milliseconds.
+However, binSearch took an avg of 2.5E-5 milliseconds.
+
 
 1000 length arrays: 
-linSearch took an average of 0.0 milliseconds.
-However, binSearch took an avg of 0.0 milliseconds.
+linSearch took an average of 0.005 milliseconds.
+However, binSearch took an avg of 0.005000124999999999 milliseconds.
+
 
 10000 length arrays: 
-linSearch took an average of 0.06 milliseconds.
-However, binSearch took an avg of 0.0 milliseconds.
+linSearch took an average of 0.030025 milliseconds.
+However, binSearch took an avg of 2.5000624999999997E-5 milliseconds.
+
 
 100000 length arrays: 
-linSearch took an average of 0.06060000000000001 milliseconds.
-However, binSearch took an avg of 0.0 milliseconds.
+linSearch took an average of 0.08015012500000002 milliseconds.
+However, binSearch took an avg of 1.2500312499999997E-7 milliseconds.
+
 
 1000000 length arrays: 
-linSearch took an average of 1.080606 milliseconds.
-However, binSearch took an avg of 0.01 milliseconds.
+linSearch took an average of 1.120400750625 milliseconds.
+However, binSearch took an avg of 6.250156249999998E-10 milliseconds.
+
 
 10000000 length arrays: 
-linSearch took an average of 15.18080606 milliseconds.
-However, binSearch took an avg of 1.0E-4 milliseconds.
+linSearch took an average of 14.895602003753124 milliseconds.
+However, binSearch took an avg of 3.125078124999999E-12 milliseconds.
+
 
 100000000 length arrays: 
-linSearch took an average of 158.4018080606 milliseconds.
-However, binSearch took an avg of 1.0E-6 milliseconds.
+linSearch took an average of 150.54447801001876 milliseconds.
+However, binSearch took an avg of 1.5625390624999995E-14 milliseconds.
 ```
 
 ## Conclusions
