@@ -35,6 +35,6 @@ NOTES:
 
 GALLERY TOUR:
  * Many groups tested varying lengths of arrays that increased by a factor of 10. This made us feel more confident in our choice of arrays to test
- * Other groups ran more trials per array. This led to us increasing the number of trials from 50 to 100.
+ * Other groups ran more trials per array. This led to us increasing the number of trials from 100 to 200.
  * Other groups returned the sum of the duration of all of their trials rather than the average of the durations.
  * Many groups populated their arrays using the indexes of the array similar to what we did
