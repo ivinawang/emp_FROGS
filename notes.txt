@@ -38,6 +38,4 @@ GALLERY TOUR:
  * Other groups ran more trials per array. (1,000+ trials) This led to us increasing the number of trials from 100 to 200
  * Other groups returned the sum of the duration of all of their trials rather than the average of the durations
  * Many groups populated their arrays using the indexes of the array similar to what we did
- * One team had a very interesting apporach to testing their hypothesis. They ran binarySerach over and over until the total time to run binarySearch took 1 millisecond- and it
-   would record the number of iterations and multiply it by the time taken for their linSearch. And in the end still got the same conclusion that "Relative to the size of the 
-   dataset, performing a binary search is significantly faster than performing a linear search"
+ * One team had a very interesting apporach to testing their hypothesis. They ran binarySerach over and over until the total time to run binarySearch took 1 millisecond. They then would record the number of iterations and multiply it by the time taken for their linSearch. In the end, they still got the same conclusion that "Relative to the size of the dataset, performing a binary search is significantly faster than performing a linear search"
