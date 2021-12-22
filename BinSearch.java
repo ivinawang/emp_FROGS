@@ -147,7 +147,6 @@ public class BinSearch
 
     //search for 43 in array 
     System.out.println( binSearch(iArr3,43) );
-    System.out.println("compile" );
 
 
 

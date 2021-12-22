@@ -9,7 +9,7 @@ public class SearchDriver {
 	private static long timeBin =0;
 
 	public static void averageTime(Comparable[] a) {
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 200; i++) {
 			int target = a.length;
 			begTimeLin = System.currentTimeMillis();
                		LinSearch.linSearch(a, target);
@@ -23,8 +23,8 @@ public class SearchDriver {
         	        timeBin = endTimeBin - begTimeBin;
 			avgBin += timeBin;
 		}
-		avgLin /= 100;
-		avgBin /= 100;
+		avgLin /= 200;
+		avgBin /= 200;
 		System.out.println("\n");
 		System.out.println(""+a.length+" length arrays: ");
 		System.out.println("linSearch took an average of " + avgLin + " milliseconds.");
