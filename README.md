@@ -5,7 +5,7 @@ TNPG + roster: FROGS (Ruby Friedman, Ivina Wang, Samantha Hua)
 * Our code tests the worst-case scenario for both LinSearch and BinSearch on varying lengths of arrays.
 * We defined the worst-case scenario to be when the target is not in the array because both methods would need to run all the way through only to return -1.
 * The arrays range from lengths 10 to 100,000,000 increasing by a factor of 10.
-* Each trial on a certain length of an array ran 50 times and then the duration of the methods LinSearch and BinSearch was averaged 
+* Each trial on a certain length of an array ran 200 times and then the duration of the methods LinSearch and BinSearch was averaged 
 
 ## Results
 
