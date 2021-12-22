@@ -2,7 +2,7 @@ Team Frogs (Ruby Friedman, Ivina Wang, Samantha Hua)
 APCS pd07
 L03 -- Get Empirical
 2021-12-20
-time spent: 5.0 hrs
+time spent: 6.0 hrs
 
 DISCO:
  * We don't need to import java.util.System because it is already embedded into Java files.
